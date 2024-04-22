@@ -19,7 +19,27 @@
 
 // task 2
 
-import getNeighborhoodsList from './2-arrow.js';
-const neighborhoodsList = new getNeighborhoodsList();
-const res = neighborhoodsList.addNeighborhood('Noe Valley');
-console.log(res);
+// import getNeighborhoodsList from './2-arrow.js';
+// const neighborhoodsList = new getNeighborhoodsList();
+// const res = neighborhoodsList.addNeighborhood('Noe Valley');
+// console.log(res);
+
+
+// task 3
+
+// import getSumOfHoods from './3-default-parameter.js';
+// console.log(getSumOfHoods(34));
+// console.log(getSumOfHoods(34, 3));
+// console.log(getSumOfHoods(34, 3, 4));
+
+// task 4
+
+// import returnHowManyArguments from './4-rest-parameter.js';
+// console.log(returnHowManyArguments("one"));
+// console.log(returnHowManyArguments("one", "two", 3, "4th"));
+
+
+// task 5
+
+import concatArrays from './5-spread-operator.js';
+console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
