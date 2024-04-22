@@ -41,5 +41,31 @@
 
 // task 5
 
-import concatArrays from './5-spread-operator.js';
-console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
+// import concatArrays from './5-spread-operator.js';
+// console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
+
+
+// task 6
+
+// import getSanFranciscoDescription from './6-string-interpolation.js';
+// console.log(getSanFranciscoDescription());
+
+
+// task 7
+
+// import getBudgetObject from './7-getBudgetObject.js';
+// console.log(getBudgetObject(400, 700, 900));
+
+
+// task 8
+
+// import getBudgetForCurrentYear from './8-getBudgetCurrentYear.js';
+// console.log(getBudgetForCurrentYear(2100, 5200, 1090));
+
+
+// task 9
+
+import getFullBudgetObject from './9-getFullBudget.js';
+const fullBudget = getFullBudgetObject(20, 50, 10);
+console.log(fullBudget.getIncomeInDollars(fullBudget.income));
+console.log(fullBudget.getIncomeInEuros(fullBudget.income));
