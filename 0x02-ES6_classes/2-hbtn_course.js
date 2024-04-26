@@ -10,7 +10,7 @@ export default class HolbertonCourse {
     }
     this._length = length;
 
-    if (students instanceof Array) {
+    if (!Array.isArray(students)) {
       throw new TypeError('Students must be a array of strings');
     }
     this._students = students;
