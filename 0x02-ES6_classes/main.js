@@ -1,17 +1,17 @@
-//1
+//0
 
 // import ClassRoom from "./0-classroom.js";
 // const room = new ClassRoom(10);
 // console.log(room._maxStudentsSize)
 
 
-// 2
+//1
 
 // import initializeRooms from './1-make_classrooms';
 // console.log(initializeRooms());
 
 
-//3
+//2
 
 // import HolbertonCourse from "./2-hbtn_course";
 // const c1 = new HolbertonCourse("ES6", 1, ["Bob", "Jane"])
@@ -32,8 +32,17 @@
 // }
 
 
-// 4
+//3
 
-import Currency from "./3-currency.js";
-const dollar = new Currency('$', 'Dollars');
-console.log(dollar.displayFullCurrency());
+// import Currency from "./3-currency.js";
+// const dollar = new Currency('$', 'Dollars');
+// console.log(dollar.displayFullCurrency());
+
+
+//4
+
+import Pricing from './4-pricing.js';
+import Currency from './3-currency.js';
+const p = new Pricing(100, new Currency("EUR", "Euro"))
+console.log(p);
+console.log(p.displayFullPrice());
