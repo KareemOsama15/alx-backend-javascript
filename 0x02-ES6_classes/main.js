@@ -73,3 +73,34 @@
 
 //7
 
+// import Airport from "./7-airport.js";
+
+// const airportSF = new Airport('San Francisco Airport', 'SFO');
+// console.log(airportSF);
+// console.log(airportSF.toString());
+
+
+//8
+
+// import HolbertonClass from "./8-hbtn_class.js";
+// const hc = new HolbertonClass(12, "Mezzanine")
+// console.log(Number(hc));
+// console.log(String(hc));
+
+
+//10
+
+// import Car from "./10-car.js";
+
+// class TestCar extends Car {}
+
+// const tc1 = new TestCar("Nissan", "Turbo", "Pink");
+// const tc2 = tc1.cloneCar();
+
+// console.log(tc1);
+// console.log(tc1 instanceof TestCar);
+
+// console.log(tc2);
+// console.log(tc2 instanceof TestCar);
+
+// console.log(tc1 == tc2);
