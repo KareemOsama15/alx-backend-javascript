@@ -41,8 +41,35 @@
 
 //4
 
-import Pricing from './4-pricing.js';
-import Currency from './3-currency.js';
-const p = new Pricing(100, new Currency("EUR", "Euro"))
-console.log(p);
-console.log(p.displayFullPrice());
+// import Pricing from './4-pricing.js';
+// import Currency from './3-currency.js';
+// const p = new Pricing(100, new Currency("EUR", "Euro"))
+// console.log(p);
+// console.log(p.displayFullPrice());
+
+
+//5
+
+// import Building from './5-building.js';
+// const b = new Building(100);
+// console.log(b);
+// class TestBuilding extends Building {}
+// try {
+//     new TestBuilding(200)
+// }
+// catch(err) {
+//     console.log(err);
+// }
+
+
+//6
+
+// import SkyHighBuilding from './6-sky_high.js';
+// const building = new SkyHighBuilding(140, 60);
+// console.log(building.sqft);
+// console.log(building.floors);
+// console.log(building.evacuationWarningMessage());
+
+
+//7
+
