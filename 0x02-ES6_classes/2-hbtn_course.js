@@ -40,7 +40,7 @@ export default class HolbertonCourse {
 
   set students(students) {
     if (!Array.isArray(students)) {
-        throw new Error('Students must be an array');
+      throw new Error('Students must be an array');
     }
     this._students = students;
   }
